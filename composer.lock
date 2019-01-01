@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f5c88cf563827bd022f63e23d0bd49e",
+    "content-hash": "351f9b570bfe289c5daf03d8139cb237",
     "packages": [
         {
             "name": "alt-three/badger",
@@ -127,16 +127,16 @@
         },
         {
             "name": "alt-three/emoji",
-            "version": "v6.1.0",
+            "version": "v7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AltThree/Emoji.git",
-                "reference": "a0512f21dc946676315178f254717c6714bf667f"
+                "reference": "e0eab12ca83e0ec56908fc066227e7da7f97d7f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AltThree/Emoji/zipball/a0512f21dc946676315178f254717c6714bf667f",
-                "reference": "a0512f21dc946676315178f254717c6714bf667f",
+                "url": "https://api.github.com/repos/AltThree/Emoji/zipball/e0eab12ca83e0ec56908fc066227e7da7f97d7f0",
+                "reference": "e0eab12ca83e0ec56908fc066227e7da7f97d7f0",
                 "shasum": ""
             },
             "require": {
@@ -150,12 +150,13 @@
                 "graham-campbell/analyzer": "^2.1",
                 "graham-campbell/markdown": "^10.2",
                 "graham-campbell/testbench": "^5.1",
+                "mockery/mockery": "^1.0",
                 "phpunit/phpunit": "^6.5|^7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.1-dev"
+                    "dev-master": "7.0-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -184,7 +185,7 @@
                 "emoji",
                 "parser"
             ],
-            "time": "2018-09-29T10:43:23+00:00"
+            "time": "2018-12-28T16:34:12+00:00"
         },
         {
             "name": "alt-three/throttle",
@@ -2337,7 +2338,7 @@
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
                     "email": "lcobucci@gmail.com",
-                    "role": "Developer"
+                    "role": "developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
@@ -2349,16 +2350,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "0.18.0",
+            "version": "0.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "006af077d4b1b7eb1d9760964f9f984ba188632c"
+                "reference": "e5029f74ba39e043ce4b3ca6c05dc719d8aafd94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/006af077d4b1b7eb1d9760964f9f984ba188632c",
-                "reference": "006af077d4b1b7eb1d9760964f9f984ba188632c",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/e5029f74ba39e043ce4b3ca6c05dc719d8aafd94",
+                "reference": "e5029f74ba39e043ce4b3ca6c05dc719d8aafd94",
                 "shasum": ""
             },
             "require": {
@@ -2407,14 +2408,14 @@
                     "role": "Lead Developer"
                 }
             ],
-            "description": "Markdown parser for PHP based on the CommonMark spec",
+            "description": "PHP Markdown parser based on the CommonMark spec",
             "homepage": "https://github.com/thephpleague/commonmark",
             "keywords": [
                 "commonmark",
                 "markdown",
                 "parser"
             ],
-            "time": "2018-09-18T13:13:55+00:00"
+            "time": "2018-12-30T01:55:29+00:00"
         },
         {
             "name": "league/flysystem",

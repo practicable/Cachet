@@ -52,7 +52,7 @@
         "laravel/tinker": "^1.0",
         "laravolt/avatar": "^1.8",
         "mccool/laravel-auto-presenter": "^7.1",
-        "nexmo/client": "^1.5",
+        "nexmo/client": "^2.0",
         "pragmarx/google2fa": "^0.7.1",
         "predis/predis": "^1.1",
         "roumen/feed": "^2.10",
